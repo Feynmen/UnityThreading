@@ -1,5 +1,5 @@
 # UnityThreading
-Wraper of .NET Thread for Unity.
+Wrapper of .NET Thread for Unity.
 ## How to start
 1) Import into your Unity project UnityThreading.dll in Assets/Plugins folder OR import source codes;
 2) Create object of UnityThread type and put into constructor your delegate. For example:
