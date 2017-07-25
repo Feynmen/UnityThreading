@@ -118,11 +118,5 @@ namespace UnityThreading
             }
             Debug.Log("Clear ThreadId " + _threadId);
         }
-
-        /// <summary>Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</summary>
-        ~UnityThread()
-        {
-            Debug.Log("Finalize  UnityThread Id=" + _threadId);
-        }
     }
 }
