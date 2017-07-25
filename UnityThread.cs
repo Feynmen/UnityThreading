@@ -18,7 +18,7 @@ namespace UnityThreading
 
         private readonly object _mutex = new object();
         private readonly Thread _thread;
-        private Action _action;
+        private readonly Action _action;
 
         /// <summary>
         /// Thread completed event
